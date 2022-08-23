@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1024px) {
+    .img-graph{
+        width: 150px;
+        height: 50%;
+        margin-top: 25%;
+    }
+    .flex-container-rc{
+        flex-direction: row;
+    }
+    
+    .flex-container{
+        flex-direction: column;
+    }
+
+    .first-part{
+        width: 100%;
+    }
+
+    .second-part{
+        width: 100%;
+    }
+
+    .last-part{
+        width: calc(100% - 30px);
+        margin: auto;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .container-for-graph{
+        margin-left: auto;
+    }
+    .img-graph{
+        width: auto;
+        height: 100px;
+        margin-left: 25%;
+    }
+    .flex-container-rc{
+        flex-direction: column;
+    }
+    .width-class-50{
+        width: 100%;
+    }
+}

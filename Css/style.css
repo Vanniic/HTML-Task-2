@@ -1,0 +1,344 @@
+body{
+	background-color: #F3F3F4;
+	color: #676A6C;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Margin for main both containers */
+.margin{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.margin-auto{
+	margin: auto;
+}
+
+/* Main Round Image Margin right and top */
+.margin-img-round{
+	margin-top: 0px;
+	margin-right: 15px;
+}
+
+/* Table One is in top , left side of graph */
+.tbl1{
+	width: 100%;
+	border-collapse: collapse;
+}
+.tbl1 td{
+	margin: auto;
+	border-top: 2px solid #E7EAEC;
+}
+
+/* This is for remove default Margin of H1 and H3 */
+h1,h3{
+	margin: auto;
+}
+
+/* This is for custom margin for Paragraphs */
+p{
+	margin-top: 15px;
+}
+
+/* Flex container row , This is used where data always in row  */
+.flex-container-row{
+	display: flex;
+	flex-direction: row;
+}
+
+/* Main .container */
+.main-container{
+	max-width: 100%;
+}
+
+/* Flex Container */
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	width: auto;
+}
+
+/* This is for Flex row and for Make a 50% div */
+.width-class-50{
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+}
+
+/* This is round main left corner image */
+.img-round{
+	border: 5px solid white;
+	max-height: 80px;
+	max-width: 80px;
+	border-radius: 50%;
+}
+
+/* This is used for margin left and right side of hole page */
+.all-container{
+	width: 95%;
+	margin: auto;
+}
+
+/* This is used for text , which are over the graph in top side */
+.top-left{
+	position: absolute;
+	margin: auto;
+}
+
+/* This is used for center text vertical in top left */
+.center-text{
+	margin: 0px auto auto 0px;
+}
+
+/* This is used for temp image of graph */
+.img-graph{
+	position: relative;
+	width: 80%;
+	height: 100%;
+	margin: auto;
+}
+
+/* This is used for left side of second container */
+.first-part{
+	/* background-color: aqua; */
+	width: 20%;
+}
+
+/* This is used for Middle side of second container */
+.second-part{
+	/* background-color: brown; */
+	width: 45%;
+	margin: 0px auto auto auto;
+}
+
+/* This is used for right side of second container */
+.last-part{
+	/* background-color: cadetblue; */
+	width: 30%;
+	margin-left: auto;
+}
+
+/* this is used for white background But never used*/
+.bg-white{
+	background-color: white;
+}
+
+/* This is used in first part of second container */
+.card{
+	margin-bottom: 40px;
+	background-color: white;
+	box-shadow: 0px 1px 2px #676A6C;
+}
+
+/* This is used for short round images in second card */
+.img-short{
+	margin: auto 0px auto 0px;
+	border: 5px solid white;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;	
+}
+
+/* this is used for flex container , this is used mainly for Responsive   */
+.flex-container-rc{
+	display: flex;
+	flex-direction: row;
+}
+
+/* this is container which provide you auto margin and 100% width  */
+.container{
+	margin: auto;
+	width: 100%;
+	position: relative;
+}
+
+.container-for-graph{
+	/* margin: auto; */
+	width: 100%;
+	position: relative;
+}
+
+/* this is used in 3rd card in first part */
+ul{
+	padding: 0px;
+}
+
+li{
+	padding: 5px;
+	list-style: none;
+	/* text-justify: distribute; */
+	border: 2px solid #E7EAEC;
+	margin: 16px 2px;
+}
+li:hover{
+	background-color: #3C7EB7;
+	color: white;
+	cursor: pointer;
+}
+
+
+input{
+	padding: 5px;
+	width: 70%;
+}
+
+textarea{
+	width: 100%;
+}
+
+.img-temp-logo{
+	width: 40px;
+	height: 40px;
+	margin: 0px 15px 0px 0px;
+}
+
+/* this is used for squre static images */
+.img-temp{
+	width: 30px;
+	height: 30px;
+	margin: 0px 15px 0px 0px;
+}
+
+/* this is used for title color */
+.title-color{
+	color: #3C7EB7;
+}
+
+/* this is used for small the fonts */
+.font-small{
+	font-size: smaller;
+}
+
+/* this is used for body of card where you can write the data */
+.card-body{
+	padding: 15px;
+	position: relative;
+	width: auto;
+}
+
+.btn-submit{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+
+/* this is used for right side arrow of card1 */
+.right-arrow{
+	border: 1px solid #676A6C;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	position: absolute;
+	right: 16px;
+	rotate: 90deg;
+	text-align: center;
+	text-justify: auto;
+}
+
+/* this is used for comment of card  */
+.card-comment{
+	background-color: #F3F3F4;
+	padding: 17px;
+	width: auto;
+}
+
+.comment{
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+hr{
+	margin: 0px;
+	opacity: 0.3;
+}
+
+.tbl2{
+	margin: 0px;
+	border-collapse: collapse;
+}
+
+.tbl2 td{
+	padding: 7px;
+	border: 1px solid #E7EAEC;
+	
+}
+
+.tbl2 td:hover{
+	background-color: #3C7EB7;
+	color: white;
+	cursor: pointer;
+}
+
+.img-cmt-body{
+	width: 100%;
+}
+
+.img-short-logo{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	z-index: -20;
+	margin-left: -23px;
+}
+
+.vl{
+	border-left: 6px solid #E7EAEC;
+}
+
+.card2{
+	width: auto;
+	z-index: -12;
+	margin-bottom: 30px;
+	max-width: 95%;
+}
+
+.card2:last-child(){
+	margin-bottom: 0px;
+}
+
+.card2-body{
+	background-color: white;
+	margin-left: 30px;
+	padding: 20px 10px 20px 20px;
+	position: relative;
+}
+
+.top-left2{
+	position: absolute;
+}
+
+.bottom-right{
+	position: absolute;
+	bottom: 0px;
+	right: 0;
+}
+
+button{
+	border-radius: 4px;
+	border: 0px;
+	padding: 7px 10px 7px 10px;
+	color: aliceblue;
+	background-color: #3C7EB7;
+}
+
+button:hover{
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+
+.triangle{
+	width: 0;
+	height: 0;
+	border-top: 12px solid transparent;
+	border-bottom: 12px solid transparent;
+	border-right: 16px solid white;
+	z-index: -20;
+	margin-left: 19px;
+	margin-top: -40px;
+}
+
+.color-green{
+	color: seagreen;
+}
